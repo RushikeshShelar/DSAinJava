@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class ArrayOfNames {
 	public static void main(String[] args) {
 		Scanner cc = new Scanner(System.in);
 		System.out.print("Enter The Size Of Array:");
@@ -16,5 +16,6 @@ public class Main {
 		for (int i = 0; i < names.length; i++) {
 			System.out.println(names[i]);
 		}
+		cc.close();
 	}
 }

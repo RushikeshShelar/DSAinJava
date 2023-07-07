@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class Arrays {
+public class MaxAndMin {
 
 	public static void main(String args[]) {
 
@@ -33,7 +33,7 @@ public class Arrays {
 		System.out.println("Largest number is : " + max);
 
 		System.out.println("Smallest number is : " + min);
-
+		sc.close();
 	}
 
 }

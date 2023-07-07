@@ -1,7 +1,6 @@
 import java.util.*;
 
-
-public class Arrays {
+public class Ascending {
 
 	public static void main(String args[]) {
 
@@ -11,7 +10,7 @@ public class Arrays {
 
 		int numbers[] = new int[size];
 
-		//input
+		// input
 		System.out.println("Enter Array Elements :");
 		for (int i = 0; i < size; i++) {
 			numbers[i] = sc.nextInt();
@@ -19,7 +18,7 @@ public class Arrays {
 
 		boolean isAsending = true;
 
-		for (int i = 0 ; i < size - 1; i++) {
+		for (int i = 0; i < size - 1; i++) {
 			if (numbers[i] > numbers[i + 1])
 				isAsending = false;
 		}
@@ -27,6 +26,7 @@ public class Arrays {
 			System.out.println("Array is in an asending Order.");
 		else
 			System.out.println("Array is In not in an asending Order.");
+		sc.close();
 
 	}
 }
